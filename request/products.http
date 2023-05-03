@@ -1,0 +1,36 @@
+@api = http://localhost:3000/products
+
+
+
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "name" : "PRUEBA6",
+    "description" : "free",
+    "quantity" : 10
+
+}
+
+###
+GET {{api}}/5
+
+###
+DELETE  {{api}}/4
+
+
+###
+GET {{api}}/count
+
+###
+PUT {{api}}/5
+Content-Type: application/json
+
+{
+    "name": "Hood remix",
+    "description" : "trueno",
+    "quantity" : 12
+}
