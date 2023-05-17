@@ -1,10 +1,11 @@
 import sql from 'mssql'
+import config   from '../config'
 
 const bdSettings = {
-    user : 'fazt',
-    password : 'carlos123',
-    server : 'localhost',
-    database : 'web',
+    user : config.USER,
+    password : 'Ishida7410',
+    server : '192.168.1.16',
+    database : 'CONSGYP2022',
     options: {
         encrypt: true, // for azure
         trustServerCertificate: true, // change to true for local dev / self-signed certs

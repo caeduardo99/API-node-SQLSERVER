@@ -9,9 +9,9 @@ POST {{api}}
 Content-Type: application/json
 
 {
-    "name" : "PRUEBA6",
-    "description" : "free",
-    "quantity" : 10
+    "latitud" : "nazi",
+    "longitud" : "-nazi"
+   
 
 }
 
@@ -26,7 +26,7 @@ DELETE  {{api}}/4
 GET {{api}}/count
 
 ###
-PUT {{api}}/5
+PUT {{api}}/6
 Content-Type: application/json
 
 {

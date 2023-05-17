@@ -1,7 +1,7 @@
 export const queries = {
-    getAllProduct: 'SELECT * FROM Products',
+    getAllProduct: 'SELECT * FROM Ivruta',
     getProductById: 'SELECT * FROM Products where Id = @Id',
-    postProduct : "INSERT INTO Products (name,description,quantity) values (@name, @description, @quantity)",
+    postProduct : "INSERT INTO Ivruta (latitud,longitud) values (@latitud, @longitud)",
     deleteProduct : "DELETE FROM Products where Id = @Id",
     getTotalProducts : "SELECT COUNT(*) FROM Products",
     updateProductById : "UPDATE Products SET Name = @name , Description = @description , Quantity = @quantity where Id= @id"
